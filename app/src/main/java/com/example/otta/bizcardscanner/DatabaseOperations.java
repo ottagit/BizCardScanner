@@ -18,8 +18,7 @@ public class DatabaseOperations extends SQLiteOpenHelper{
             + Bizcard_Tabledata.Bizcard_TabledataInfo.FAX + " int, " + Bizcard_Tabledata.Bizcard_TabledataInfo.COMPANY_MAIL + " String)";;
 
     public DatabaseOperations(Context context) {
-        super(context, Bizcard_Tabledata.Bizcard_TabledataInfo.DBASE_NAME, null, DB00_VE0
-                RSION);
+        super(context, Bizcard_Tabledata.Bizcard_TabledataInfo.DBASE_NAME, null, DB_VERSION);
         Log.d("Database Operations","Database created");
     }
 
